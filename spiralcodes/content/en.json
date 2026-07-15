@@ -1,0 +1,331 @@
+{
+  "locale": "en-GB",
+  "lang": "en",
+  "dir": "en",
+  "meta": {
+    "siteName": "Spiral",
+    "org": "SpiralCodes",
+    "title": "Spiral — Operating System for Decisions",
+    "description": "Spiral is an integrated system for improving human and organisational decisions. Observe. Understand. Decide. Build.",
+    "keywords": "decision latency, governance, institutional memory, autonomy, Spiral, SpiralCodes"
+  },
+  "nav": {
+    "method": "Method",
+    "modules": "Modules",
+    "library": "Library",
+    "institution": "Institution",
+    "contact": "Contact",
+    "switchLabel": "Português",
+    "skip": "Skip to content",
+    "primary": "Primary navigation",
+    "footerNav": "Spiral modules"
+  },
+  "hero": {
+    "eyebrow": "SPIRALCODES · BELO HORIZONTE · BRAZIL",
+    "title": "Spiral",
+    "subtitle": "Operating System for Decisions",
+    "lead": "We do not sell software. We do not sell courses. We do not sell books. We build an integrated system for improving decisions — human and organisational.",
+    "equationCaption": "r(θ) = a · e^(bθ) — the logarithmic spiral. Same point, one level higher.",
+    "cta": "See the method"
+  },
+  "thesis": {
+    "label": "THESIS",
+    "title": "People and organisations rarely fail for lack of information.",
+    "body": [
+      "They fail through inertia. We live in the most informed era in history and still postpone what matters. Between the moment a decision is made and the moment it becomes action lies an interval — invisible, unmeasured, expensive.",
+      "Spiral exists to make that interval visible. First inside the organisation, where it costs money. Then inside the person, where it costs life."
+    ]
+  },
+  "method": {
+    "label": "METHOD",
+    "title": "Four movements",
+    "lead": "The entire system — corporate and personal — is organised around the same sequence. The order is not decorative: each movement becomes possible only after the one before it.",
+    "steps": [
+      {
+        "num": "I",
+        "name": "Observe",
+        "body": "See the ground as it is. No self-deception, no comfortable narrative. Nobody walks steadily across terrain they cannot see."
+      },
+      {
+        "num": "II",
+        "name": "Understand",
+        "body": "Turn observation into criterion. Raw data decides nothing; understanding sets the standard for what is accepted and what is refused."
+      },
+      {
+        "num": "III",
+        "name": "Decide",
+        "body": "Choose the vector. Not the ten-year plan with a hundred branches — the next correct step, recorded and auditable."
+      },
+      {
+        "num": "IV",
+        "name": "Build",
+        "body": "Convert the decision into structure. What never becomes work remains opinion. Movement is the only proof."
+      }
+    ]
+  },
+  "modulesSection": {
+    "label": "MODULES",
+    "title": "One system, seven instruments",
+    "lead": "The modules are not independent products. They are layers of the same system, held together by the same sequence.",
+    "layers": [
+      {
+        "id": "org",
+        "name": "Organisational layer",
+        "note": "The decision inside the company."
+      },
+      {
+        "id": "person",
+        "name": "Personal layer",
+        "note": "The decision inside the person."
+      },
+      {
+        "id": "transmission",
+        "name": "Transmission layer",
+        "note": "The criterion crossing time."
+      }
+    ]
+  },
+  "modules": [
+    {
+      "key": "enterprise",
+      "slug": "spiral-enterprise",
+      "layer": "org",
+      "name": "Spiral Enterprise",
+      "tagline": "Corporate decisions, measured.",
+      "movement": "Decide",
+      "lead": "Every organisation knows how long it takes to produce. Almost none knows how long it takes to decide. Enterprise measures the interval between a decision and the action that fulfils it.",
+      "functions": [
+        "Decision latency: the time between a decision event and the action realising it, paired by idempotency key.",
+        "Operational indicators: median latency, P90 and censorship rate — deterministic, auditable, no inference.",
+        "Performance: where the process stalls, who stalls it, and what it costs per cycle.",
+        "ROI: the invisible interval turned into a number the board understands."
+      ],
+      "instrument": "A passive instrument. It does not interfere with the process — it records and measures.",
+      "related": [
+        "vision",
+        "ledger",
+        "dojo"
+      ]
+    },
+    {
+      "key": "vision",
+      "slug": "spiral-vision",
+      "layer": "org",
+      "name": "Spiral Vision",
+      "tagline": "Raw data becomes operational intelligence.",
+      "movement": "Observe",
+      "lead": "Before deciding, you must see. Vision turns the data an operation already produces into something usable by the people who decide, not only by those who analyse.",
+      "functions": [
+        "Analysis: structured reading of what the operation already produces and nobody reads.",
+        "Anticipation: identifying trajectories before the consequence arrives.",
+        "Visualisation: panels designed for decisions, not for reports.",
+        "Native integration with Ledger and Enterprise."
+      ],
+      "instrument": "In production. Vision/Ledger integration operational.",
+      "related": [
+        "enterprise",
+        "ledger"
+      ]
+    },
+    {
+      "key": "ledger",
+      "slug": "spiral-ledger",
+      "layer": "org",
+      "name": "Spiral Ledger",
+      "tagline": "Verifiable institutional memory.",
+      "movement": "Understand",
+      "lead": "An organisation that cannot remember why it decided starts from zero each cycle. Ledger is the intact record of what was decided, by whom, on what information, and when.",
+      "functions": [
+        "Integrity: an immutable, verifiable, auditable record.",
+        "Governance: who decided what, and under which criterion.",
+        "Traceability: the full timeline from a decision to its consequence.",
+        "Permanence: the memory survives the people who leave."
+      ],
+      "instrument": "In production. The record layer for the whole ecosystem.",
+      "related": [
+        "enterprise",
+        "vision"
+      ]
+    },
+    {
+      "key": "dojo",
+      "slug": "spiral-dojo",
+      "layer": "org",
+      "name": "Spiral Dojo",
+      "tagline": "Training the people who decide.",
+      "movement": "Build",
+      "lead": "No instrument repairs a culture. Dojo trains leaders in the one technology that never ages: criterion.",
+      "functions": [
+        "Discipline: repeated practice, not episodic motivation.",
+        "Method: the same sequence, applied until it becomes reflex.",
+        "Culture: the standard that holds when nobody is watching.",
+        "Continuous improvement: the cycle that rises with every turn."
+      ],
+      "instrument": "Delivered in person and remotely. Transmission between people, not by machine.",
+      "related": [
+        "enterprise",
+        "library"
+      ]
+    },
+    {
+      "key": "vita",
+      "slug": "spiral-vita",
+      "layer": "person",
+      "name": "Spiral Vita",
+      "tagline": "The half-beat before the decision.",
+      "movement": "Observe",
+      "lead": "A company's decision is born inside a person. Vita is the quietest instrument in the system: a daily pause, one question, one record.",
+      "functions": [
+        "The canonical question: “Did you respect your limit today?”",
+        "Low-friction daily reflection — seconds, not sessions.",
+        "Awareness: recognising the pattern before it becomes a consequence.",
+        "A declared scope: Vita is not therapy. When the signal calls for professional care, it says so plainly."
+      ],
+      "instrument": "Android application. Trust Engine 1.5.1.",
+      "related": [
+        "elf",
+        "library"
+      ]
+    },
+    {
+      "key": "elf",
+      "slug": "spiral-elf",
+      "layer": "person",
+      "name": "Spiral Elf",
+      "tagline": "Personal execution in micro-steps.",
+      "movement": "Build",
+      "lead": "The brain freezes in front of the infinite, but it is not afraid of sixty seconds. Elf breaks inertia by reducing a decision to the smallest possible physical action.",
+      "functions": [
+        "Micro-steps: the smallest unit of movement that is still real.",
+        "Commitments: what was decided, recorded where it will not disappear.",
+        "Protected capital: the financial decision separated from the impulse that contaminates it.",
+        "Inertia: measured, named and broken."
+      ],
+      "instrument": "In development.",
+      "related": [
+        "vita",
+        "enterprise"
+      ]
+    },
+    {
+      "key": "library",
+      "slug": "library",
+      "layer": "transmission",
+      "name": "Spiral Library",
+      "tagline": "The criterion, written down.",
+      "movement": "Understand",
+      "lead": "An institution exists to transmit orientation through time. The Library is where Spiral's orientation is recorded — before the products, and after them.",
+      "functions": [
+        "Treatises: the founding documents of Spiral's epistemology.",
+        "Essays: institutional doctrine and long-horizon thinking.",
+        "Novels: the same thesis, told from the inside.",
+        "Access: reading, not consumption."
+      ],
+      "instrument": "A catalogue under permanent construction.",
+      "related": [
+        "dojo",
+        "vita"
+      ],
+      "books": [
+        {
+          "title": "Treatise of the Spiral",
+          "subtitle": "Consciousness, Movement and Legacy",
+          "kind": "Founding treatise",
+          "year": "2026"
+        },
+        {
+          "title": "Mother Treatise — The Epistemology of the Spiral",
+          "subtitle": "Origin, feeling and dignity",
+          "kind": "Founding treatise",
+          "year": "2026"
+        },
+        {
+          "title": "The Builder of Centuries",
+          "subtitle": "How to turn a company into an institution",
+          "kind": "Institutional essay",
+          "year": "2026"
+        },
+        {
+          "title": "Walking with the Stars",
+          "subtitle": "From saturation to autonomy",
+          "kind": "Essay",
+          "year": "2026"
+        },
+        {
+          "title": "The Permanence of the Record",
+          "subtitle": "On what survives a decision",
+          "kind": "Essay",
+          "year": "2026"
+        },
+        {
+          "title": "2064 — Part I: Convalescence",
+          "subtitle": "A novel",
+          "kind": "Fiction",
+          "year": "2026"
+        }
+      ]
+    }
+  ],
+  "connections": {
+    "label": "CONNECTIONS",
+    "title": "Nothing here is a standalone product",
+    "lead": "The modules form two circuits and a bridge between them. Leaving one means entering the other.",
+    "chains": [
+      {
+        "name": "Organisational circuit",
+        "path": [
+          "Enterprise",
+          "Vision",
+          "Ledger",
+          "Dojo"
+        ]
+      },
+      {
+        "name": "Personal circuit",
+        "path": [
+          "Vita",
+          "Elf",
+          "Library"
+        ]
+      }
+    ],
+    "note": "An organisation's decision is born inside a person. That is why both circuits belong to the same system."
+  },
+  "institution": {
+    "label": "INSTITUTION",
+    "title": "A company captures value. An institution transmits orientation through time.",
+    "body": [
+      "SpiralCodes was designed around that distinction. We do not build for the quarter; we build so that the criterion outlives the person who formed it.",
+      "This has practical and uncomfortable consequences: Spiral is slow, refuses the promise of rapid transformation, and measures its own success by the degree of autonomy it installs in the people who use it. A healthy tool does not create dependence — it creates emancipation.",
+      "The product dies. The process ages. The model gets copied. Only the criterion crosses oceans."
+    ],
+    "principles": [
+      "Act on the long clock, even while living on the short one.",
+      "What extracts from those it serves will be abandoned. What returns more than it asks will be kept for generations.",
+      "Discipline is not motivation: it is setting correctly the joint nobody will ever see.",
+      "Build towards your own unnecessity."
+    ]
+  },
+  "contact": {
+    "label": "CONTACT",
+    "title": "Serious conversations, not forms",
+    "lead": "If your organisation wants to measure the interval between deciding and acting — or if you want to understand the system before any proposal — write. A person will answer.",
+    "email": "reimsfreitas@gmail.com",
+    "cta": "Write to Spiral"
+  },
+  "modulePage": {
+    "back": "All modules",
+    "movementLabel": "Movement",
+    "layerLabel": "Layer",
+    "functionsLabel": "What it does",
+    "instrumentLabel": "Status",
+    "relatedLabel": "Connects with",
+    "catalogLabel": "Catalogue"
+  },
+  "footer": {
+    "org": "SpiralCodes",
+    "tagline": "Operating System for Decisions",
+    "rights": "SpiralCodes. All rights reserved.",
+    "closing": "Observe. Decide. Move."
+  }
+}

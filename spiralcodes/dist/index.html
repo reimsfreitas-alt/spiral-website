@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spiral — Operating System for Decisions</title>
+<meta name="description" content="An integrated system for improving human and organisational decisions.">
+<link rel="canonical" href="https://spiralcodes.com.br/">
+<link rel="alternate" hreflang="pt-BR" href="https://spiralcodes.com.br/pt/">
+<link rel="alternate" hreflang="en" href="https://spiralcodes.com.br/en/">
+<link rel="alternate" hreflang="x-default" href="https://spiralcodes.com.br/en/">
+<link rel="icon" href="/assets/mark.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root { --ink:#0E0F10; --paper:#F7F5F1; --gold:#A47C3A; --rule:#E1DCD4; --slate:#5C6166; }
+  * { box-sizing:border-box; }
+  body { margin:0; min-height:100svh; display:grid; place-items:center;
+         background:var(--paper); color:var(--ink); font-family:"IBM Plex Mono",monospace; padding:2rem; }
+  .gate { text-align:center; }
+  .gate h1 { font-family:"EB Garamond",serif; font-weight:400; font-size:clamp(3rem,10vw,5rem);
+             margin:0 0 .25rem; letter-spacing:-.02em; }
+  .gate p { font-size:.78rem; letter-spacing:.14em; text-transform:uppercase; color:var(--gold); margin:0 0 3rem; }
+  .gate nav { display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; }
+  .gate a { border:1px solid var(--rule); padding:.9rem 1.75rem; color:var(--slate);
+            font-size:.78rem; letter-spacing:.12em; text-transform:uppercase; text-decoration:none;
+            transition:border-color .25s, color .25s; }
+  .gate a:hover, .gate a:focus-visible { border-color:var(--gold); color:var(--ink); outline:none; }
+</style>
+<script>
+  (function () {
+    try {
+      var pt = (navigator.languages || [navigator.language || "en"]).some(function (l) {
+        return String(l).toLowerCase().indexOf("pt") === 0;
+      });
+      location.replace(pt ? "/pt/" : "/en/");
+    } catch (e) {}
+  })();
+</script>
+</head>
+<body>
+  <div class="gate">
+    <h1>Spiral</h1>
+    <p>Operating System for Decisions</p>
+    <nav>
+      <a href="/pt/">Português</a>
+      <a href="/en/">English</a>
+    </nav>
+  </div>
+</body>
+</html>
